@@ -77,7 +77,11 @@ const Login = () => {
               onClick={(event) => handleSubmit(event)}
               className="buttons"
             >
-              Log-In
+              Log-In{" "}
+              <i
+                class="fa-solid fa-right-to-bracket"
+                style={{ marginLeft: "3px" }}
+              ></i>
             </button>
           </div>
         </form>

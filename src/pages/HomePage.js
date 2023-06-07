@@ -31,7 +31,11 @@ const HomePage = () => {
     <div className="container-fluid homepage">
       <div className="logOutHolder">
         <button className="btn btn-danger" onClick={() => handleLogOut()}>
-          LogOut
+          LogOut{" "}
+          <i
+            class="fa-solid fa-right-from-bracket"
+            style={{ marginLeft: "3px" }}
+          ></i>
         </button>
       </div>
       <div className="main">

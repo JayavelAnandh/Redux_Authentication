@@ -84,7 +84,11 @@ const SignUp = () => {
               onClick={(event) => handleSubmit(event)}
               className="buttons"
             >
-              Register
+              Register{" "}
+              <i
+                class="fa-solid fa-floppy-disk"
+                style={{ marginLeft: "3px" }}
+              ></i>
             </button>
           </div>
         </form>
